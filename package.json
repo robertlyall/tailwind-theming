@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.15",
+    "postcss": "^8.4.30",
+    "serve": "^14.2.1",
+    "tailwindcss": "^3.3.3"
+  },
+  "name": "tailwind-theming",
+  "scripts": {
+    "build": "tailwindcss build -i src/style.css -o public/style.css",
+    "serve": "serve public"
+  }
+}
